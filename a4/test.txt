@@ -1,0 +1,47 @@
+//2404 A3 Demonstration of Commands Script
+
+//Test add Commands
+//add recording
+add -r 100 "the Please Please Me" "the Beatles" "the George Martin" 1963
+add -r 101 "the With The Beatles" "the Beatles" "the George Martin" 1963
+add -r 102 "the A Hard Day's Night" "the Beatles" "the George Martin" 1964
+
+
+//add song
+add -s 1000 "I Saw Her Standing There" "Paul McCartney, John Lennon"
+add -s 1001 "the misery" "the Paul McCartney, John Lennon"
+add -s 1002 "the Anna (Go To Him)" "the Arthur Alexander"
+
+//add track
+add -t 1 100 1000 1
+add -t 2 101 1001 2
+add -t 3 102 1002 3
+
+
+//add users
+add -u fjones "Frank Jones"
+add -u ajones "Anne Jones"
+add -u cindy "Cindy Reynolds"
+
+//add playlists
+
+add -p ajones "help"
+add -p cindy "help"
+add -p fjones "help"
+
+//add playlist tracks
+add -l ajones "help" 1
+//add -l cindy "help" 1
+
+show users
+follow -u cindy -p "help" -f ajones
+show users
+
+add -l ajones "help" 2
+show users
+
+follow -u cindy -p "help" -f stop
+delete -u cindy -p "help" -t 1
+
+//Test show Commands
+show users

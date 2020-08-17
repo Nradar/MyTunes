@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C92755C51FD611BA00CEF3EE /* recordings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755AB1FD611B700CEF3EE /* recordings.cpp */; };
+		C92755C61FD611BA00CEF3EE /* song.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755AE1FD611B700CEF3EE /* song.cpp */; };
+		C92755C71FD611BA00CEF3EE /* track.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755AF1FD611B800CEF3EE /* track.cpp */; };
+		C92755C81FD611BA00CEF3EE /* command.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755B11FD611B800CEF3EE /* command.cpp */; };
+		C92755C91FD611BA00CEF3EE /* UI.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755B51FD611B800CEF3EE /* UI.cpp */; };
+		C92755CA1FD611BA00CEF3EE /* playlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755B81FD611B800CEF3EE /* playlist.cpp */; };
+		C92755CB1FD611BA00CEF3EE /* recording.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755B91FD611B800CEF3EE /* recording.cpp */; };
+		C92755CC1FD611BA00CEF3EE /* tracks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755BA1FD611B800CEF3EE /* tracks.cpp */; };
+		C92755CD1FD611BA00CEF3EE /* songs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755BB1FD611B900CEF3EE /* songs.cpp */; };
+		C92755CE1FD611BA00CEF3EE /* users.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755BC1FD611B900CEF3EE /* users.cpp */; };
+		C92755CF1FD611BA00CEF3EE /* user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755BF1FD611B900CEF3EE /* user.cpp */; };
+		C92755D01FD611BA00CEF3EE /* mytunes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755C21FD611BA00CEF3EE /* mytunes.cpp */; };
+		C92755D11FD611BA00CEF3EE /* str_util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755C31FD611BA00CEF3EE /* str_util.cpp */; };
+		C92755D21FD611BA00CEF3EE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C92755C41FD611BA00CEF3EE /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9B805281FD47CC00083CECA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B1D668C024EB49DA006DCC1C /* insert_beatles_tracks_rev1.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = insert_beatles_tracks_rev1.txt; sourceTree = "<group>"; };
+		B1D668C124EB49DA006DCC1C /* help.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = help.txt; sourceTree = "<group>"; };
+		C92755AA1FD611B700CEF3EE /* str_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = str_util.h; sourceTree = "<group>"; };
+		C92755AB1FD611B700CEF3EE /* recordings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recordings.cpp; sourceTree = "<group>"; };
+		C92755AC1FD611B700CEF3EE /* playlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playlist.h; sourceTree = "<group>"; };
+		C92755AD1FD611B700CEF3EE /* songs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = songs.h; sourceTree = "<group>"; };
+		C92755AE1FD611B700CEF3EE /* song.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = song.cpp; sourceTree = "<group>"; };
+		C92755AF1FD611B800CEF3EE /* track.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = track.cpp; sourceTree = "<group>"; };
+		C92755B01FD611B800CEF3EE /* mytunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mytunes.h; sourceTree = "<group>"; };
+		C92755B11FD611B800CEF3EE /* command.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = command.cpp; sourceTree = "<group>"; };
+		C92755B21FD611B800CEF3EE /* command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = command.h; sourceTree = "<group>"; };
+		C92755B31FD611B800CEF3EE /* recording.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recording.h; sourceTree = "<group>"; };
+		C92755B41FD611B800CEF3EE /* track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = track.h; sourceTree = "<group>"; };
+		C92755B51FD611B800CEF3EE /* UI.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UI.cpp; sourceTree = "<group>"; };
+		C92755B61FD611B800CEF3EE /* UI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UI.h; sourceTree = "<group>"; };
+		C92755B71FD611B800CEF3EE /* users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = users.h; sourceTree = "<group>"; };
+		C92755B81FD611B800CEF3EE /* playlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = playlist.cpp; sourceTree = "<group>"; };
+		C92755B91FD611B800CEF3EE /* recording.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = recording.cpp; sourceTree = "<group>"; };
+		C92755BA1FD611B800CEF3EE /* tracks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tracks.cpp; sourceTree = "<group>"; };
+		C92755BB1FD611B900CEF3EE /* songs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = songs.cpp; sourceTree = "<group>"; };
+		C92755BC1FD611B900CEF3EE /* users.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = users.cpp; sourceTree = "<group>"; };
+		C92755BD1FD611B900CEF3EE /* user.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = user.h; sourceTree = "<group>"; };
+		C92755BE1FD611B900CEF3EE /* recordings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = recordings.h; sourceTree = "<group>"; };
+		C92755BF1FD611B900CEF3EE /* user.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = user.cpp; sourceTree = "<group>"; };
+		C92755C01FD611B900CEF3EE /* tracks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tracks.h; sourceTree = "<group>"; };
+		C92755C11FD611B900CEF3EE /* song.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = song.h; sourceTree = "<group>"; };
+		C92755C21FD611BA00CEF3EE /* mytunes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mytunes.cpp; sourceTree = "<group>"; };
+		C92755C31FD611BA00CEF3EE /* str_util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = str_util.cpp; sourceTree = "<group>"; };
+		C92755C41FD611BA00CEF3EE /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C92755D31FD611F700CEF3EE /* observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = observer.h; sourceTree = "<group>"; };
+		C92755D41FD612B500CEF3EE /* subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = subject.h; sourceTree = "<group>"; };
+		C92755D51FD615A700CEF3EE /* arraylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = arraylist.h; sourceTree = "<group>"; };
+		C9B8052A1FD47CC00083CECA /* a4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = a4; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C9B805271FD47CC00083CECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9B805211FD47CC00083CECA = {
+			isa = PBXGroup;
+			children = (
+				C9B8052C1FD47CC00083CECA /* a4 */,
+				C9B8052B1FD47CC00083CECA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C9B8052B1FD47CC00083CECA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C9B8052A1FD47CC00083CECA /* a4 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C9B8052C1FD47CC00083CECA /* a4 */ = {
+			isa = PBXGroup;
+			children = (
+				C92755D51FD615A700CEF3EE /* arraylist.h */,
+				C92755D41FD612B500CEF3EE /* subject.h */,
+				C92755B11FD611B800CEF3EE /* command.cpp */,
+				C92755B21FD611B800CEF3EE /* command.h */,
+				C92755C41FD611BA00CEF3EE /* main.cpp */,
+				C92755C21FD611BA00CEF3EE /* mytunes.cpp */,
+				C92755B01FD611B800CEF3EE /* mytunes.h */,
+				C92755B81FD611B800CEF3EE /* playlist.cpp */,
+				C92755AC1FD611B700CEF3EE /* playlist.h */,
+				C92755B91FD611B800CEF3EE /* recording.cpp */,
+				B1D668C124EB49DA006DCC1C /* help.txt */,
+				B1D668C024EB49DA006DCC1C /* insert_beatles_tracks_rev1.txt */,
+				C92755B31FD611B800CEF3EE /* recording.h */,
+				C92755AB1FD611B700CEF3EE /* recordings.cpp */,
+				C92755BE1FD611B900CEF3EE /* recordings.h */,
+				C92755AE1FD611B700CEF3EE /* song.cpp */,
+				C92755C11FD611B900CEF3EE /* song.h */,
+				C92755BB1FD611B900CEF3EE /* songs.cpp */,
+				C92755AD1FD611B700CEF3EE /* songs.h */,
+				C92755C31FD611BA00CEF3EE /* str_util.cpp */,
+				C92755AA1FD611B700CEF3EE /* str_util.h */,
+				C92755AF1FD611B800CEF3EE /* track.cpp */,
+				C92755B41FD611B800CEF3EE /* track.h */,
+				C92755BA1FD611B800CEF3EE /* tracks.cpp */,
+				C92755C01FD611B900CEF3EE /* tracks.h */,
+				C92755B51FD611B800CEF3EE /* UI.cpp */,
+				C92755B61FD611B800CEF3EE /* UI.h */,
+				C92755BF1FD611B900CEF3EE /* user.cpp */,
+				C92755BD1FD611B900CEF3EE /* user.h */,
+				C92755BC1FD611B900CEF3EE /* users.cpp */,
+				C92755B71FD611B800CEF3EE /* users.h */,
+				C92755D31FD611F700CEF3EE /* observer.h */,
+			);
+			path = a4;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C9B805291FD47CC00083CECA /* a4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B805311FD47CC00083CECA /* Build configuration list for PBXNativeTarget "a4" */;
+			buildPhases = (
+				C9B805261FD47CC00083CECA /* Sources */,
+				C9B805271FD47CC00083CECA /* Frameworks */,
+				C9B805281FD47CC00083CECA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = a4;
+			productName = a4;
+			productReference = C9B8052A1FD47CC00083CECA /* a4 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C9B805221FD47CC00083CECA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Tiancheng Zhao";
+				TargetAttributes = {
+					C9B805291FD47CC00083CECA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C9B805251FD47CC00083CECA /* Build configuration list for PBXProject "a4" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C9B805211FD47CC00083CECA;
+			productRefGroup = C9B8052B1FD47CC00083CECA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9B805291FD47CC00083CECA /* a4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9B805261FD47CC00083CECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C92755C91FD611BA00CEF3EE /* UI.cpp in Sources */,
+				C92755CD1FD611BA00CEF3EE /* songs.cpp in Sources */,
+				C92755CA1FD611BA00CEF3EE /* playlist.cpp in Sources */,
+				C92755C61FD611BA00CEF3EE /* song.cpp in Sources */,
+				C92755D21FD611BA00CEF3EE /* main.cpp in Sources */,
+				C92755CC1FD611BA00CEF3EE /* tracks.cpp in Sources */,
+				C92755D01FD611BA00CEF3EE /* mytunes.cpp in Sources */,
+				C92755CB1FD611BA00CEF3EE /* recording.cpp in Sources */,
+				C92755D11FD611BA00CEF3EE /* str_util.cpp in Sources */,
+				C92755CE1FD611BA00CEF3EE /* users.cpp in Sources */,
+				C92755C51FD611BA00CEF3EE /* recordings.cpp in Sources */,
+				C92755C71FD611BA00CEF3EE /* track.cpp in Sources */,
+				C92755CF1FD611BA00CEF3EE /* user.cpp in Sources */,
+				C92755C81FD611BA00CEF3EE /* command.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C9B8052F1FD47CC00083CECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C9B805301FD47CC00083CECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C9B805321FD47CC00083CECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C9B805331FD47CC00083CECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C9B805251FD47CC00083CECA /* Build configuration list for PBXProject "a4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B8052F1FD47CC00083CECA /* Debug */,
+				C9B805301FD47CC00083CECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B805311FD47CC00083CECA /* Build configuration list for PBXNativeTarget "a4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9B805321FD47CC00083CECA /* Debug */,
+				C9B805331FD47CC00083CECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C9B805221FD47CC00083CECA /* Project object */;
+}
